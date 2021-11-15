@@ -8,7 +8,6 @@ $(document).ready(function () {
               $('#page-top').fadeOut();
           }
       });
-
       $('#page-top a').click(function () {
           $('body,html').animate({
               scrollTop: 0
